@@ -14,11 +14,17 @@
 To use Todo-CLI, ensure that you have Node.js installed, then clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/todo-cli.git
+git clone https://github.com/himjoshi95/Todo-FileSystem-CLI.git
 cd todo-cli
 npm install
 ```
 ## Usage
+
+### For Help
+
+```bash
+node index.js -h
+```
 
 ### Show All Tasks
 List all tasks with their completion status:
@@ -30,3 +36,18 @@ Add a new task to your to-do list:
 ```bash
 node index.js add "Your Task Description"
 ```
+
+### Delete a Task
+Delete a task by specifying its index:
+```bash
+node index.js delete 1
+```
+
+### Mark a Task
+Toggle the completion status of a task by its index:
+```bash
+node index.js mark 1
+```
+### Mark a Task
+Current version: 0.8.0
+
