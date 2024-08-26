@@ -48,6 +48,6 @@ Toggle the completion status of a task by its index:
 ```bash
 node index.js mark 1
 ```
-### Mark a Task
+### Version
 Current version: 0.8.0
 
