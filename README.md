@@ -18,3 +18,15 @@ git clone https://github.com/yourusername/todo-cli.git
 cd todo-cli
 npm install
 ```
+## Usage
+
+### Show All Tasks
+List all tasks with their completion status:
+```bash
+node index.js show
+```
+### Add a Task
+Add a new task to your to-do list:
+```bash
+node index.js add "Your Task Description"
+```
