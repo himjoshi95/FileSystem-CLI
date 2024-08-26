@@ -15,7 +15,7 @@ To use Todo-CLI, ensure that you have Node.js installed, then clone the reposito
 
 ```bash
 git clone https://github.com/himjoshi95/Todo-FileSystem-CLI.git
-cd todo-cli
+cd Todo-FileSystem-CLI
 npm install
 ```
 ## Usage
